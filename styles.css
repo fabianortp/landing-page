@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+    }
+    
+    html{
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      min-height: 100vh;
+      background: rgb(168, 158, 158);
+    }
+    
+    li {
+      font-size: 1.3em;
+    }
+    
+    /*nav*/
+
+    nav { 
+        background-color: black;
+    }
+    
+    #header-img {
+        max-width: 70px;
+        display: inline;
+        padding-left: 10%;
+      }
+
+    nav ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav li {
+        height: 85px;
+    }
+    
+    nav a {
+      height: 100%;
+      padding: 0 30px;
+      display: flex;
+      text-decoration: none;
+      display: flex;
+      align-items: center;  
+      color: white;    
+    }
+    
+    #nav-bar a:hover {
+          color: #c02828;
+      }
+
+    nav li:first-child {
+        margin-right: auto;
+    }
+
+    nav li:nth-child(2) {
+        margin-right: auto;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 250px;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, 0.509);
+        backdrop-filter: blur(10px);
+        box-shadow: -10px 0 10px white;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .sidebar li {
+        width: 100%;
+    }
+
+    .menu {
+      filter: invert(92%) sepia(92%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(107%);
+      display: none;
+    }
+
+
+    @media(max-width: 800px) {
+  
+      .hideOnMobile{
+        display: none;
+      }
+
+      .menu {
+        display: flex;
+      }
+
+      li {
+        font-size: 1.1em;
+      }
+
+      nav li {
+        height: 65px;
+    }
+
+    #header-img {
+      max-width: 60px;
+    }
+
+
+    }
+
+    @media(max-width: 400px) {
+  
+      .name{
+        font-size: 0.9em;
+      }
+
+      .sidebar {
+        width: 100%;
+      }
+
+      li {
+        font-size: 1em;
+      }
+
+      nav li {
+        height: 55px;
+    }
+
+    #header-img {
+      max-width: 50px;
+    }
+
+    }
+    
+
+
+   
+
+
+    

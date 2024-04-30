@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Product landing Page</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <nav id="nav-bar">
+        <ul class="sidebar"> 
+            <li onclick="hideSidebar()">
+                <a class="menu" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+            </li>
+            <li>
+                <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#how_it_works">How It Works</a>
+            </li> 
+            <li>
+                <a class="nav-link" href="#pricing">Pricing</a>
+            </li>  
+        </ul>
+        <ul>
+            <li>
+                <img id="header-img" src="//www.musik-center.de/media/catalog/product/cache/c7a34c1044b15a525c1d64ba33a2c588/2/1/215901_3_1936330327.jpg"> 
+            </li> 
+            <li>
+                <a class="name" href="#">Acordeon Shop</a>
+            </li>
+            <li>
+                <a class="hideOnMobile" href="#features">Features</a>
+            </li>
+            <li>
+                <a class="hideOnMobile" href="#how_it_works">How It Works</a>
+            </li> 
+            <li>
+                <a class="hideOnMobile" href="#pricing">Pricing</a>
+            </li>  
+            <li onclick="showSidebar()">
+                <a class="menu" href="#menu"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+            </li> 
+        </ul>
+      </nav>
+
+      <script src="script.js" defer></script>
+
+  </body>
+</html> 
