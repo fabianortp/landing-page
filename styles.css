@@ -196,19 +196,54 @@
       margin-bottom: 20px;
     }
 
+    /*section Pricing*/
+
+    .section-title3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+    }
+
+    .title-pricing {
+      font-size: 1.5em;
+      padding-bottom: 10px;
+    }
+
+    .container {
+        margin-top: 10px;
+        margin-bottom: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .product {
+      border: 5px solid rgb(15, 14, 14);
+      border-radius: 25px;
+      margin: 20px;
+      padding: 25px;
+      width: 500px;
+    }
+
+    ol {
+      padding-left: 20px;
+    }
+
     @media(max-width: 800px) {
   
-      .hideOnMobile{
-        display: none;
-      }
+    .hideOnMobile{
+      display: none;
+    }
 
-      .menu {
-        display: flex;
-      }
+    .menu {
+      display: flex;
+    }
 
-      nav li {
-        font-size: 1.1em;
-        height: 65px;
+    nav li {
+      font-size: 1.1em;
+      height: 65px;
     }
 
     #header-img {
@@ -218,7 +253,7 @@
     nav li:nth-child(2) {
       margin-right: auto;
       padding-left: 5%;
-  }
+    }
 
     /*section Title and email Submit*/
 
@@ -266,6 +301,27 @@
       max-height: 320px;
     }
 
+    /*section Pricing*/
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .product {
+      max-width: 80%;
+    }
+
+    .title-pricing {
+      font-size: 1.3em;
+    }
+
+    #li-pricing { 
+      font-size: 1.1em;
+    }
+    
 }
 
     @media(max-width: 400px) {
@@ -331,6 +387,16 @@
     #video {
       max-width: 70%;
       max-height: 250px;
+    }
+
+    /*section Pricing*/
+
+    .title-pricing {
+      font-size: 1.2em;
+    }
+
+    #li-pricing { 
+      font-size: 0.9em;
     }
 
     }
